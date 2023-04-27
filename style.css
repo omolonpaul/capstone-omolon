@@ -1,0 +1,99 @@
+
+
+body {
+	background-color: #f0e9e2;
+	color: #5b5b5b;
+	font-family: "Bai Jamjuree", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: #444444;
+	font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+	color: #5b5b5b;
+	transition: all 0.4s ease;
+}
+
+
+img {
+	width: 100%;
+}
+
+.text-brand	{
+	color: #2986cc;
+}
+
+.full-height {
+	min-height: 100vh;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	border-bottom: 2px solid rgba(60, 60, 60, 0.1);
+}
+
+/*Navbar*/
+
+.navbar {
+	background-color: rgb(120, 120, 120);
+}
+
+.navbar .nav-link {
+	font-weight: 700;
+	text-transform: uppercase;
+	color: white;
+}
+
+
+@media screen and (min-width: 992px) {
+	.navbar {
+		min-height: 100vh;
+		width: 240px;
+		background: linear-gradient(rgba(240, 240, 240, 0.7),rgba(240, 240, 240, 0.7)), url(./images/sidebar.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+
+	.navbar-brand img {
+		border: 8px solid rgba(240, 240, 240, 0.9);
+	}
+
+	/*Content*/
+	#content {
+		padding-left: 240px;
+	}
+
+}
+
+
+
+/*Button*/
+.btn {
+	padding: 12px 28px;
+	font-weight: 700;
+}
+
+.btn-brand {
+	background-color: rgb(210, 210, 210);
+
+}
+
+.link-custom {
+	font-weight: 700;
+	position: relative;
+}
+
+.link-custom::after {
+	content: "";
+	width: 100%;
+	height: 2px;
+	position: absolute;
+	left: 0;
+	top: 110%;
+}
+
