@@ -97,3 +97,14 @@ img {
 	top: 110%;
 }
 
+/* Custom styles for the gallery */
+.card-cutom {
+  text-align: center;
+}
+
+.card-cutom-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
